@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: rgb(186, 207, 247);
+}
+header{
+    padding: 1rem 0 2rem;
+    background-color: rgb(129, 157, 235);
+    color: rgb(17, 20, 20);
+}
+.card{
+    margin: 3.5rem 0.5rem 1rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.form-group{
+    padding-top: 1rem;
+}
+
+img{
+    size: 100%;
+    height: 200px;
+    width: 100px;
+}
+
+.logbt{
+    margin-top: 2rem;
+}
+.navbar
+{
+    padding: 3% 15%;
+}
+
+footer {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: black;
+  }
