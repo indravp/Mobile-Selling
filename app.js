@@ -111,6 +111,8 @@ app.post("/contact", (req,res)=>{
         email: req.body.email,
         message: req.body.message
     });
+    message.save();
+    res.redirect("/");
 });
 app.get("/buy", (req, res)=>{
     if(req.isAuthenticated()){
